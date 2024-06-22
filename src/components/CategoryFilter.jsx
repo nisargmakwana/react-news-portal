@@ -17,7 +17,7 @@ const CategoryFilter = ({ setCategory }) => {
 				<button
 					key={category}
 					onClick={() => setCategory(category.toLowerCase())}
-					className="bg-blue-500 text-white px-4 py-2 m-2 rounded">
+					className="bg-red-500 text-white px-4 py-2 m-2 rounded">
 					{category}
 				</button>
 			))}
